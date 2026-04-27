@@ -205,23 +205,23 @@
   }
   .h1 {
     font-family: 'Inter Tight', sans-serif; font-weight: 500;
-    font-size: 96px; line-height: 1.02; letter-spacing: -0.035em;
+    font-size: 120px; line-height: 1.02; letter-spacing: -0.035em;
     color: var(--ink); margin: 0;
   }
   section.slide.dark .h1 { color: var(--cream); }
   .h2 {
     font-family: 'Inter Tight', sans-serif; font-weight: 500;
-    font-size: 80px; line-height: 1.03; letter-spacing: -0.03em; margin: 0;
+    font-size: 104px; line-height: 1.03; letter-spacing: -0.03em; margin: 0;
   }
   .lede {
     font-family: 'Fraunces', serif; font-weight: 300; font-style: italic;
-    font-size: 44px; line-height: 1.2; letter-spacing: -0.015em;
+    font-size: 56px; line-height: 1.2; letter-spacing: -0.015em;
     color: var(--ink-soft); margin: 0;
   }
   section.slide.dark .lede { color: #BDB6A7; }
   .body {
     font-family: 'Inter Tight', sans-serif; font-weight: 400;
-    font-size: 28px; line-height: 1.42; color: var(--ink-soft);
+    font-size: 36px; line-height: 1.42; color: var(--ink-soft);
     margin: 0; text-wrap: pretty;
   }
   section.slide.dark .body { color: #BDB6A7; }
@@ -242,7 +242,7 @@
 
   /* =================== SLIDE 1 — TITRE =================== */
   .s-title { display: grid; grid-template-columns: 1fr 607px; height: 100%; }
-  .s-title .left { padding: 150px 100px 100px 120px; display: flex; flex-direction: column; justify-content: space-between; }
+  .s-title .left { padding: 110px 100px 100px 120px; display: flex; flex-direction: column; justify-content: space-between; }
   .s-title .right { position: relative; background: #14100E; overflow: hidden; }
   .s-title .right img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .s-title .right::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.65) 100%); }
@@ -262,7 +262,7 @@
   /* =================== SLIDE 2 — BESOIN =================== */
   .s-problem {
     display: grid; grid-template-columns: 1fr 450px; gap: 80px;
-    padding: 160px 120px 120px; height: 100%; box-sizing: border-box;
+    padding: 110px 120px 100px; height: 100%; box-sizing: border-box;
   }
   .s-problem .image-col { position: relative; overflow: hidden; background: var(--bg); }
   .s-problem .image-col img { width: 100%; height: 100%; object-fit: cover; }
@@ -277,8 +277,8 @@
     font-family: 'IBM Plex Mono', monospace; font-size: 15px; letter-spacing: 0.22em;
     text-transform: uppercase; color: var(--accent); margin-bottom: 14px;
   }
-  .card-block h3 { font-weight: 500; font-size: 36px; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 10px; }
-  .card-block p { font-size: 24px; line-height: 1.42; color: var(--ink-soft); margin: 0; }
+  .card-block h3 { font-weight: 500; font-size: 46px; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 10px; }
+  .card-block p { font-size: 32px; line-height: 1.42; color: var(--ink-soft); margin: 0; }
   .keyfact { display: flex; align-items: baseline; gap: 18px; padding-top: 22px; border-top: 1px solid var(--rule); }
   .keyfact .num { font-weight: 500; font-size: 64px; line-height: 0.95; letter-spacing: -0.03em; color: var(--accent); }
   .keyfact .cap {
@@ -288,7 +288,7 @@
 
   /* =================== SLIDE 3 — TECHNOLOGIE =================== */
   .s-tech {
-    padding: 150px 100px 110px; height: 100%; box-sizing: border-box;
+    padding: 110px 100px 110px; height: 100%; box-sizing: border-box;
     display: grid; grid-template-columns: 461px 1fr; gap: 70px;
   }
   .s-tech .tech-image { position: relative; overflow: hidden; background: #1b1915; flex: 1; }
@@ -304,8 +304,8 @@
   .node.core { background: var(--bg-dark); color: var(--cream); border-color: var(--bg-dark); }
   .node .nidx { font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.22em; color: var(--accent); width: 60px; flex-shrink: 0; }
   .node.core .nidx { color: var(--accent-soft); }
-  .node .ntitle { font-weight: 500; font-size: 26px; letter-spacing: -0.01em; flex: 0 0 320px; }
-  .node .nbody { font-size: 22px; line-height: 1.38; color: var(--ink-soft); margin: 0; }
+  .node .ntitle { font-weight: 500; font-size: 34px; letter-spacing: -0.01em; flex: 0 0 320px; }
+  .node .nbody { font-size: 30px; line-height: 1.38; color: var(--ink-soft); margin: 0; }
   .node.core .nbody { color: #BDB6A7; }
   .tech-tags { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
   .tag {
@@ -316,7 +316,7 @@
 
   /* =================== SLIDE 4 — CONCURRENCE =================== */
   .s-market {
-    padding: 150px 100px 120px; height: 100%; box-sizing: border-box;
+    padding: 110px 100px 120px; height: 100%; box-sizing: border-box;
     display: grid; grid-template-columns: 1fr 1.5fr; gap: 80px; align-items: stretch;
   }
   .sectors { margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px 28px; max-width: 520px; }
@@ -351,7 +351,7 @@
 
   /* =================== SLIDE 5 — ÉQUIPE =================== */
   .s-team { display: grid; grid-template-columns: 1.2fr 1fr; height: 100%; }
-  .s-team .left { padding: 150px 80px 110px 120px; display: flex; flex-direction: column; gap: 40px; }
+  .s-team .left { padding: 110px 80px 110px 120px; display: flex; flex-direction: column; gap: 40px; }
   .s-team .right { position: relative; overflow: hidden; background: #1b1915; }
   .s-team .right img { width: 100%; height: 100%; object-fit: cover; }
   .s-team .right .cap {
@@ -378,7 +378,7 @@
 
   /* =================== SLIDE 6 — LEAN CANVAS =================== */
   .s-lean {
-    padding: 130px 100px 90px; height: 100%; box-sizing: border-box;
+    padding: 100px 100px 80px; height: 100%; box-sizing: border-box;
     display: flex; flex-direction: column; gap: 24px;
   }
   .lean-grid {
@@ -396,7 +396,7 @@
   }
   .lc .lc-title { font-size: 22px; font-weight: 500; color: var(--ink); letter-spacing: -0.005em; line-height: 1.25; }
   .lc ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 5px; }
-  .lc ul li { font-size: 20px; line-height: 1.38; color: var(--ink-soft); padding-left: 22px; position: relative; }
+  .lc ul li { font-size: 26px; line-height: 1.38; color: var(--ink-soft); padding-left: 22px; position: relative; }
   .lc ul li::before { content: '—'; position: absolute; left: 0; color: var(--accent); }
   .lc.highlight { background: #EFE9DC; }
   /* Lean Canvas positions */
@@ -416,7 +416,7 @@
 
   /* =================== SLIDE 7 — TRACTION =================== */
   .s-traction {
-    padding: 150px 100px 110px; height: 100%; box-sizing: border-box;
+    padding: 110px 100px 110px; height: 100%; box-sizing: border-box;
     display: flex; flex-direction: column; gap: 40px;
   }
   .partners-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; flex: 1; }
@@ -426,13 +426,14 @@
     text-transform: uppercase; color: var(--accent);
   }
   .partner-card .pname { font-size: 28px; font-weight: 500; letter-spacing: -0.01em; }
-  .partner-card .pdesc { font-size: 22px; color: var(--ink-soft); line-height: 1.38; margin: 0; }
+  .partner-card .pdesc { font-size: 30px; color: var(--ink-soft); line-height: 1.38; margin: 0; }
   .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 60px; padding: 40px 0 0; border-top: 1px solid var(--rule); }
-  .stat .val { font-size: 72px; font-weight: 500; letter-spacing: -0.03em; line-height: 1; color: var(--accent); margin-bottom: 10px; }
+  .stats-col { display: flex; flex-direction: column; gap: 0; padding: 0; border: none; align-self: start; }
+  .stat .val { font-size: 52px; font-weight: 500; letter-spacing: -0.03em; line-height: 1; color: var(--accent); margin-bottom: 10px; }
   .stat .lbl { font-family: 'IBM Plex Mono', monospace; font-size: 16px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-mute); }
 
   /* =================== SLIDE 8 — VERDICT =================== */
-  .s-conc { padding: 150px 100px 120px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 50px; }
+  .s-conc { padding: 110px 100px 120px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 50px; }
   .verdict { display: flex; align-items: stretch; gap: 50px; }
   .verdict .mark { font-weight: 600; font-size: 180px; line-height: 0.85; letter-spacing: -0.05em; color: var(--accent); flex-shrink: 0; }
   .verdict .mark-side { display: flex; flex-direction: column; gap: 14px; padding-top: 40px; flex: 1; }
@@ -444,7 +445,7 @@
   .pillar { padding: 32px 0 0; border-top: 1px solid #3A332C; }
   .pillar .num { font-family: 'IBM Plex Mono', monospace; font-size: 14px; letter-spacing: 0.24em; color: var(--accent-soft); margin-bottom: 16px; text-transform: uppercase; }
   .pillar .t { font-size: 34px; font-weight: 500; letter-spacing: -0.02em; color: var(--cream); margin: 0 0 10px; line-height: 1.1; }
-  .pillar .d { font-size: 22px; color: #BDB6A7; line-height: 1.42; margin: 0; }
+  .pillar .d { font-size: 30px; color: #BDB6A7; line-height: 1.42; margin: 0; }
   .hook { margin-top: auto; padding-top: 36px; border-top: 1px solid #3A332C; display: flex; justify-content: space-between; align-items: flex-end; }
   .hook .q { font-family: 'Fraunces', serif; font-weight: 300; font-style: italic; font-size: 44px; line-height: 1.15; color: var(--accent-soft); max-width: 1250px; margin: 0; }
   .hook .sig { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #6D665A; letter-spacing: 0.2em; text-transform: uppercase; }
@@ -670,7 +671,7 @@
     <div class="left">
       <div class="anim-up d1">
         <div class="eyebrow" style="margin-bottom: 18px;">L'équipe · facteur clé</div>
-        <h2 class="h2">Deux fondateurs,<br/>plus de trente ans<br/>de logiciel industriel.</h2>
+        <h2 class="h2" style="font-size:76px;">Deux fondateurs,<br/>plus de trente ans<br/>de logiciel industriel.</h2>
       </div>
 
       <div class="founders-list">
@@ -715,63 +716,54 @@
         <div class="lc lc-problem">
           <div class="lc-label">Problème</div>
           <ul>
-            <li>Conception de pièces complexes trop lente</li>
-            <li>Manque d'ingénieurs spécialisés</li>
-            <li>Processus de conception longs et coûteux</li>
+            <li>Conception lente &amp; coûteuse</li>
+            <li>Pénurie d'ingénieurs</li>
           </ul>
         </div>
         <div class="lc lc-solution">
           <div class="lc-label">Solution</div>
           <ul>
-            <li>Noyron — modèle computationnel Exclusive</li>
-            <li>Conception automatisée de moteurs-fusée</li>
-            <li>Fichier de fabrication prêt à imprimer</li>
+            <li>Noyron — IA de conception</li>
+            <li>Pièce prête à imprimer</li>
           </ul>
         </div>
         <div class="lc lc-uvp highlight">
-          <div class="lc-label">Proposition de valeur unique</div>
-          <div class="lc-title" style="font-size: 24px; color: var(--accent); margin-top: 4px;">Du cahier des charges à la pièce imprimée — sans CAO.</div>
-          <p style="font-size:20px; color:var(--ink-soft); margin:8px 0 0; line-height:1.38;">Premier modèle d'IA qui conçoit des machines complexes directement prêtes pour la fabrication additive métal.</p>
+          <div class="lc-label">Proposition de valeur</div>
+          <div class="lc-title" style="font-size: 26px; color: var(--accent); margin-top: 8px; line-height:1.3;">Du cahier des charges à la pièce imprimée — sans CAO.</div>
         </div>
         <div class="lc lc-advantage">
           <div class="lc-label">Avantage déloyal</div>
           <ul>
-            <li>Propriété intellectuelle exclusive (Noyron + PicoGK)</li>
-            <li>Essais moteurs réussis (aerospike, méthane-oxygène)</li>
-            <li>Équipe fondatrice unique sur le marché</li>
+            <li>IP exclusive (Noyron + PicoGK)</li>
+            <li>1 MN de poussée autonome</li>
           </ul>
         </div>
         <div class="lc lc-segments">
-          <div class="lc-label">Segments clients</div>
+          <div class="lc-label">Segments</div>
           <ul>
-            <li>Constructeurs spatiaux &amp; lanceurs</li>
-            <li>Défense — hypersonique, propulsion</li>
-            <li>Énergie — échangeurs, turbines</li>
-            <li>Impression biomédicale</li>
+            <li>Spatial &amp; défense</li>
+            <li>Énergie &amp; médical</li>
           </ul>
         </div>
         <div class="lc lc-metrics">
           <div class="lc-label">Indicateurs clés</div>
           <ul>
-            <li>Licences Noyron signées</li>
-            <li>Moteurs testés et validés en conditions réelles</li>
-            <li>1 MN de poussée générée de façon autonome</li>
+            <li>Licences signées</li>
+            <li>Moteurs validés en conditions réelles</li>
           </ul>
         </div>
         <div class="lc lc-channels">
           <div class="lc-label">Canaux</div>
           <ul>
-            <li>Vente directe aux constructeurs industriels</li>
-            <li>Salons — Formnext, TCT</li>
-            <li>Partenariats imprimeurs</li>
+            <li>Vente directe</li>
+            <li>Salons (Formnext, TCT)</li>
           </ul>
         </div>
         <div class="lc lc-costs">
-          <div class="lc-label">Structure de coûts</div>
+          <div class="lc-label">Coûts</div>
           <ul>
-            <li>R&amp;D logicielle</li>
-            <li>Essais moteurs &amp; fabrication</li>
-            <li>Équipe ingénierie</li>
+            <li>R&amp;D &amp; ingénierie</li>
+            <li>Essais moteurs</li>
           </ul>
         </div>
       </div>
@@ -779,14 +771,14 @@
       <div class="lean-bottom anim-up d3">
         <div class="lc" style="padding: 14px 20px;">
           <div class="lc-label">Sources de revenus</div>
-          <div style="font-size: 20px; color: var(--ink-soft); line-height: 1.38; margin-top: 4px;">
-            Licences logicielles récurrentes · prestations d'ingénierie sur-mesure · redevances sur pièces fabriquées
+          <div style="font-size: 22px; color: var(--ink-soft); line-height: 1.38; margin-top: 4px;">
+            Licences · ingénierie sur mesure · redevances
           </div>
         </div>
         <div class="lc" style="padding: 14px 20px;">
           <div class="lc-label">Premiers clients</div>
-          <div style="font-size: 20px; color: var(--ink-soft); line-height: 1.38; margin-top: 4px;">
-            The Exploration Company (2026) · Aspire Space · HBD · Farsoon · Nikon SLM Solutions
+          <div style="font-size: 22px; color: var(--ink-soft); line-height: 1.38; margin-top: 4px;">
+            The Exploration Company · Aspire Space · HBD · Farsoon · Nikon SLM Solutions
           </div>
         </div>
       </div>
@@ -806,41 +798,45 @@
         <h2 class="h2">De l'algorithme<br/>au banc d'essai.</h2>
       </div>
 
-      <div class="partners-grid anim-up d2">
-        <div class="partner-card">
-          <div class="pdate">Mars 2026</div>
-          <div class="pname">The Exploration Company</div>
-          <p class="pdesc">Signature d'une licence Noyron pour la conception de moteurs-fusée de nouvelle génération.</p>
+      <div style="display:grid; grid-template-columns: 1fr 320px; gap: 60px; flex:1;">
+        <div style="display:flex; flex-direction:column; gap:28px;">
+          <div class="partners-grid anim-up d2">
+            <div class="partner-card">
+              <div class="pdate">Mars 2026</div>
+              <div class="pname">The Exploration Company</div>
+              <p class="pdesc">Signature d'une licence Noyron pour la conception de moteurs-fusée de nouvelle génération.</p>
+            </div>
+            <div class="partner-card">
+              <div class="pdate">Mars 2026 · Shanghai</div>
+              <div class="pname">HBD × LEAP 71</div>
+              <p class="pdesc">Plus grand moteur-fusée aerospike imprimé 3D au monde.</p>
+            </div>
+            <div class="partner-card">
+              <div class="pdate">Décembre 2025</div>
+              <div class="pname">Méthalox orbital</div>
+              <p class="pdesc">Deux moteurs de classe orbitale conçus de façon autonome par Noyron et testés avec succès en conditions réelles.</p>
+            </div>
+            <div class="partner-card">
+              <div class="pdate">Novembre 2025</div>
+              <div class="pname">Nikon SLM Solutions</div>
+              <p class="pdesc">Validation industrielle d'un composant de grande taille de moteur-fusée.</p>
+            </div>
+          </div>
         </div>
-        <div class="partner-card">
-          <div class="pdate">Mars 2026 · Shanghai</div>
-          <div class="pname">HBD × LEAP 71</div>
-          <p class="pdesc">Plus grand moteur-fusée aerospike imprimé 3D au monde.</p>
-        </div>
-        <div class="partner-card">
-          <div class="pdate">Décembre 2025</div>
-          <div class="pname">Méthalox orbital</div>
-          <p class="pdesc">Deux moteurs de classe orbitale conçus de façon autonome par Noyron et testés avec succès en conditions réelles.</p>
-        </div>
-        <div class="partner-card">
-          <div class="pdate">Novembre 2025</div>
-          <div class="pname">Nikon SLM Solutions</div>
-          <p class="pdesc">Validation industrielle d'un composant de grande taille de moteur-fusée.</p>
-        </div>
-      </div>
 
-      <div class="stats-row anim-up d3">
-        <div class="stat">
-          <div class="val">1&nbsp;MN</div>
-          <div class="lbl">Poussée conçue de façon autonome</div>
-        </div>
-        <div class="stat">
-          <div class="val">5+</div>
-          <div class="lbl">Partenariats industriels signés</div>
-        </div>
-        <div class="stat">
-          <div class="val">2023</div>
-          <div class="lbl">Fondée à Dubaï — hub spatial émergent</div>
+        <div class="stats-col anim-up d3">
+          <div class="stat" style="padding:24px 0; border-top:1px solid var(--rule);">
+            <div class="val">1&nbsp;MN</div>
+            <div class="lbl">Poussée conçue de façon autonome</div>
+          </div>
+          <div class="stat" style="padding:24px 0; border-top:1px solid var(--rule);">
+            <div class="val">5+</div>
+            <div class="lbl">Partenariats industriels signés</div>
+          </div>
+          <div class="stat" style="padding:24px 0; border-top:1px solid var(--rule);">
+            <div class="val">2023</div>
+            <div class="lbl">Fondée à Dubaï — hub spatial émergent</div>
+          </div>
         </div>
       </div>
     </div>
